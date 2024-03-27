@@ -246,3 +246,31 @@ h3 .fade-in-bottom{
   background-color: rgb(223, 219, 219);
 }
 
+.BD {
+  background-color: rgb(244, 146, 146);
+  border-radius: 20px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.BD img:nth-child(1) {
+  display: block;
+  flex: 50%;
+  height: 400px;
+  padding: 10px;
+}
+
+.BD img:nth-child(2) {
+  display: block;
+  flex: 50%;
+  height: 400px;
+  padding: 10px;
+}
+
+.BDH {
+  margin-top: 20px;
+}
+
+.BDImages {
+  display: flex;
+}
