@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Entrepreneurship Expo - Main</title>
+  <title>Entrepreneurship Day</title>
   <link href="style.css" rel="stylesheet">
   <meta charset="utf-8">
   <link rel="icon" type="image/png" href="Images/AceFavicon.png">
@@ -11,7 +11,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
   <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/product/">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
-  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
  
   <style>
@@ -93,27 +92,35 @@
     }
   </style>
 </head>
-<body class="boody">
-
+<body class="boody flyer">
     <main>
-      <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary EEcover fade-in">
-        <div class="col-md-6 p-lg-5 mx-auto my-5">
-          <h1 class="display-3 fw-bold fade-in-bottom">Entrepreneurship Expo</h1>
-          <h3 class="fade-in-bottom">By Advanced Career Education Center at Hermitage</h3>
-        </div>
+      <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3  bg-body-tertiary EEcover text-center fade-in" >
+            <h1 class="display-3 fw-bold fade-in-bottom text-center" style="font-size: 90px; margin-top: 100px;">Entrepreneurship Day</h1><br><br><br>
+            <h3 class="fade-in-bottom fix text-center" style="font-size: 40px;">Advanced Career Education Center at Hermitage</h3>
+          </div>
       </div>
+
+      <br>
+      <p class="aboutDay">Entrepreneurship Day is a chance for all our programs to showcase the skills and talents of our amazing students and teachers. Each program is offering a product or service related to their field of study. This website has descriptions of the many products and services being offered by our programs so come out for our plant sale and while you are here experience all of the amazing services offered by our 27 different programs!
+      </p>
+      <div class="bottomLine1"></div>
 
       <div class="Questions">
           <div class="what" >
-            <h1>What?</h1>
+            <h1>Addresses:</h1>
             <br>
-            <p>Information Detailing what the Entrepreneurship Expo is</p>
+            <ul class="Times">
+              <li style="list-style-image: url(Images/ThumbTack.jpg);">8350 Hermitage High Blvd <br> Henrico, VA 23228</li>
+            </ul>
           </div>
           <div class="vl"></div>
             <div class="when">
-                <h1>When?</h1>
+                <h1>Dates & Times:</h1>
                 <br>
-                <p>When the Entrepreneurship Expo is. Day 1 and Day 2.</p>
+               <ul class="Times">
+                 <li style="list-style-image: url(Images/Calander.jpg);">April 30th - May 1st</li>
+                 <li style="list-style-image: url(Images/Clock.jpg);">11am - 5pm</li>
+               </ul>
             </div>
       </div>
       
@@ -122,43 +129,85 @@
       <br>
       <div class="plants">
         <div class="plantContent"> 
-            <h1>PLANTS!!!</h1>
+            <h1>Plant Sale</h1>
+            <p>Hosted by Horticulture the plant sale will take place in the <strong>Horticulture Building</strong><br> during the day.
+                 Please visit and purchase the following plants. Their prices are to the right</p>
+                 <!--<button id="toggleTableButton">Show/Hide Plant Prices</button>
+                 <script>
+                  document.getElementById('toggleTableButton').addEventListener('click', function() {
+                    const table = document.querySelector('.plantList');
+                    table.style.display = (table.style.display === 'none' || !table.style.display) ? 'table' : 'none';
+                  });
+                </script>-->
         </div>
       </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
+
+      <table class="table table-success table-striped" style="width: 30%; height: min-content; margin-left: 40px; margin:10px;">
+        <tr colspan="2">
+          <th>Plants offered during event</th>
+          <th></th>
+        </tr>
+        <tr>
+            <th>Item:</th>
+            <th>Price:</th>
+        </tr>
+        <tr>
+            <td>Six Packs</td>
+            <td>$4.00</td>
+        </tr>
+        <tr>
+            <td>3 ½” Pots</td>
+            <td>$1.50</td>
+        </tr>
+        <tr>
+            <td>4 ½” Pots</td>
+            <td>$3.25</td>
+        </tr>
+        <tr>
+            <td>4 ½” Tall</td>
+            <td>$4.50</td>
+        </tr>
+        <tr>
+            <td>6 ½” Pots</td>
+            <td>$5.00</td>
+        </tr>
+        <tr>
+            <td>Trade Gallon Pots</td>
+            <td>$7.00</td>
+        </tr>
+        <tr>
+            <td>True Gallon Pots</td>
+            <td>$8.00</td>
+        </tr>
+        <tr>
+            <td>10” Hanging Basket</td>
+            <td>$16.00</td>
+        </tr>
+        <tr>
+            <td>12” Hanging Basket</td>
+            <td>$20.00</td>
+        </tr>
+        <tr>
+            <td>Peonies</td>
+            <td>$15.00</td>
+            
+        </tr>
+     </table>
+    
       <div class="Blood">
         <div class="bloodContent"> 
-            <h1>BLOOD!!!</h1>
+            <h1>Blood Drive</h1>
+            <p>Hosted by Sports Medicine and partnered with American Red Cross. </p>
         </div>
       </div>
-
-      <br>
-      <br>
-      <br>
-      <br>
-      <br><br>
-      <br>
-      <br>
-      <br>
-      <br>
+      <div class=border>
+        <a href="https://www.redcrossblood.org/give.html/drive-results?zipSponsor=acecenter" class="QRcodeA">
+        <img src="Images/BloodDriveQRcode.jpg" alt="QR Code to blood drive sign up" class="QRcode">
+        </a>
+        <p class=QRcodeCap>Click or scan me to sing up for the blood drive!</p>
+    </div>
     </main>
 
-
-
-
-   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <footer class="container py-5">
       <div class="row">
         <div class="col-12 col-md">
@@ -193,7 +242,6 @@
         </div>
       </div>
     </footer>
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
     
         </body>
     </html>

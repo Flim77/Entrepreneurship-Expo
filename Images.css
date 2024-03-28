@@ -21,103 +21,17 @@ h1 {
     text-align: center;
 }
 
-.boody{
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-style: normal;
-    display: inline;
-    font-family: "Jost", sans-serif;
-   font-optical-sizing: auto;
-   font-weight: 300;
-    font-style: normal;
-    color: #803f98;
-}
-#BRspace{
-  background-color: #0080806c;
-}
-.aceLogo{
-  height:150px;
-  display: inline;
-  float: left;
-}
-header{
-    margin: 15px;
-}
-/* #008080  #0080806c */
-
-.container-fluid{
-  z-index:1;
-  height: min-content;
-  margin-top: -10px;
-  margin-bottom: -8px;
-  background: linear-gradient(to left, 
-  #008080, 
-  #00808081 20%, 
-  #00808046 40%, 
-  #00808011 60%, 
-  white 80%
-);
-border-bottom: #803f98 solid 2px;
+.nav {
+    background-color: #008080;
+    height: 75px;
+    flex: 85%;
+    border-radius: 20px;
 }
 
-.navbar-brand{
-  transition: 1s;
- 
-}
-.AceSize{
-  font-size: xx-large;
-}
-.navbar-brand:hover{
-  box-shadow: 5px 6px #803f98a8;
-}
-.dropdown-toggle{
-background: #803f985e;
-}
-.offcanvas-body{
-  background: #803f985e;
-}
-.offcanvas-header{
-  background: #803f985e;
-}
-
-.navbar-toggler{
-  float: right;
-}
-.dropdown{
-  float: right;
-}
-.navbar{
-  background: seagreen;
-}
-#mainH1{
-  position: relative;
-  z-index: 2;
-  color: black;
-  text-align: center;
-}
-
-.SetWidth{
-  height: 300px;
-}
-
-.about{
-  background-image: url("Images/ACE-Outside.png");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  width: 100vw;
-  min-height: 600px;
-  max-height: max-content;
-  background-size: cover;
-  display: flex;
-  justify-content:right;
-  align-items: center;
-}
-.ContentRight{
-  color: #008080;
-  size: x-large;
-  margin-right:90px;
-  font-weight: bolder;
-  background: rgba(255, 255, 255, 0.418);
+.nav p {
+    text-align: center;
+    font-size: 50px;
+    margin: 0%;
 }
 
 .slides {
