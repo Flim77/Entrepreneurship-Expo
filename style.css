@@ -1,14 +1,13 @@
 
 .boody{
     font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
     font-style: normal;
     display: inline;
     font-family: "Jost", sans-serif;
-   font-optical-sizing: auto;
    font-weight: 300;
     font-style: normal;
     color: #803f98;
+    margin:80px;
 }
 #BRspace{
   background-color: #0080806c;
@@ -43,7 +42,8 @@ border-bottom: #803f98 solid 2px;
  
 }
 .AceSize{
-  font-size: xx-large;
+  font-size: 2.5vw;
+  width: 10vw;
 }
 .navbar-brand:hover{
   box-shadow: 5px 6px #803f98a8;
@@ -92,9 +92,9 @@ background: #803f985e;
   justify-content:right;
   align-items: center;
 }
+
 .ContentRight{
   color: #008080;
-  size: x-large;
   margin-right:90px;
   font-weight: bolder;
   background: rgba(255, 255, 255, 0.418);
@@ -228,7 +228,7 @@ h3 .fade-in-bottom{
   z-index: 2;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 550px;
+  height: 400px;
   opacity: .7;
   color: #803f98;
   background: linear-gradient(white 60%, #00808070 );
@@ -336,9 +336,8 @@ h3 .fade-in-bottom{
   background-image: url(Images/Plants.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  max-height: auto;
-  min-height:450px;
-  width: 60%;
+  height: 90vh;
+  width: 60vw;
   position: relative;
   text-align: center;
   white-space: normal;
@@ -358,11 +357,10 @@ h3 .fade-in-bottom{
 }
 
 .plantContent{
-  background-color: rgba(0, 0, 0, 0.356);
+  background-color: rgba(0, 0, 0, 0.623);
   color: #ffffff;
+  height: 100%;
   width: 100%;
-  height: auto;
-  min-height: 450px;
   padding: 10px;
   border: #803f98 4px ridge;
   border-top-right-radius: 35%;
@@ -394,9 +392,8 @@ margin:10px
   background-image: url(Images/Blood.png);
   background-repeat: repeat-x;
   background-size: cover;
-  height: auto;
-  min-height: 450px;
-  width: 60%;
+  height: 90vh;
+  width: 60vw;
   position: relative;
   text-align: center;
   white-space: normal;
@@ -417,12 +414,11 @@ margin:10px
 
 
 .bloodContent{
-  background-color: rgba(0, 0, 0, 0.356);
+  background-color: rgba(0, 0, 0, 0.623);
   background-size: cover;
   color: #ffffff;
+  height: 100%;
   width: 100%;
-  height: auto;
-  min-height: 450px;
   padding: 10px;
   border: #803f98 4px ridge;
   border-top-left-radius: 35%;
@@ -459,6 +455,16 @@ margin:10px
   margin-top: 25px;
   margin-left: 20px;
 }
+
+.SocialLogo{
+  width: 25%;
+  margin-bottom: 3px;
+}
+
+.medias{
+  width: 300px;
+}
+
 
 .container {
   max-width: 100vh;
@@ -521,6 +527,10 @@ margin:10px
   background-color: #e5e5e5;
 }
 
+h3{
+  text-align: center;
+  font-weight: bolder;
+}
 
 /*
  * Extra utilities
@@ -537,9 +547,9 @@ margin:10px
 
 .col{
   transition: .5s;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  height: min-content;
 }
 .col:hover{
   box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0), 0 17px 50px 0 #0080808c;
