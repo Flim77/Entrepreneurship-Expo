@@ -545,6 +545,9 @@ h3{
   }
 }
 
+.img-size{
+  height: 30vh;
+}
 .col{
   transition: .5s;
   border-radius: 10px;
