@@ -419,3 +419,17 @@ a:hover {
 .items tr {
   border: solid black 2px;
 }
+
+#Flyer {
+  border-radius: 20px;
+  width: 500px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+#Flyer:hover {
+  box-shadow: 10px 10px 15px #008080;
+}
