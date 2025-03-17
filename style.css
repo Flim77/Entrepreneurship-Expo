@@ -552,8 +552,11 @@ h3{
   transition: .5s;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0);
-  height: min-content;
+  width: fit-content;
+
 }
 .col:hover{
   box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0), 0 17px 50px 0 #0080808c;
 }
+
+

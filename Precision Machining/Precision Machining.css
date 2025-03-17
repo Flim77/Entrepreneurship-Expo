@@ -401,3 +401,46 @@ a:hover {
   background-color: transparent;
   text-decoration: underline;
 }
+
+.fourimgs {
+  width: 260px;
+  height: 260px;
+  display: flex;
+  border-radius: 18px;
+}
+
+.imgcontainer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.figs {
+  transition: box-shadow 0.3s ease-in-out;
+  border: solid 3px #803f98;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.figs:hover {
+  box-shadow: 5px 5px 7px #803f98;
+}
+
+figcaption {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.decoInfo {
+  border-radius: 20px;
+  border: solid 3px #803f98;
+  margin-left: 75px;
+  margin-right: 75px;
+  padding:5px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.decoInfo:hover {
+  box-shadow: 5px 5px 7px #803f98;
+}
